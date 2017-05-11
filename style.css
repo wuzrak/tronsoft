@@ -1,0 +1,152 @@
+*{
+	font-family: Trebuchet MS;
+}
+
+#naslov{
+text-align: center;
+}
+
+body, ul, li {
+	margin:0;
+	padding: 0;
+}
+
+p, li, h1, h3, h4{
+	color:#4e4e4e;
+}
+
+.wrapper{
+	width: 96%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+header{
+	background: linear-gradient(to right, #030d54 , #85ccff);
+	/*background: #030d54;*/
+	padding: 10px 0;
+	border-bottom: 3px solid white;
+}
+
+header h1.logo{
+	margin: 0;
+	text-indent: -10000px;
+	background: url("img/logosh.png") no-repeat;
+	border-right: 4px solid white;
+	float:left;
+  height: 90px;
+  width: 85px;
+	padding-right: 10px;
+}
+
+#tronsoft{
+	float: left;
+	color: white;
+	padding-left: 30px;
+	font-size: 35px;
+}
+
+header nav{
+	float: right;
+}
+
+header:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+header nav h2{
+	line-height: 0;
+	margin: 0;
+	text-indent: -10000px;
+}
+
+header nav li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+header nav li a{
+	text-decoration: none;
+	color:#4e4e4e;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+.banner{
+ height: 575px;
+ width: 100%;
+ background-image: url("img/banner-958962_1280.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ box-shadow: 0 0 3px grey;
+}
+
+.banner p{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	padding-right: 50px;
+	padding-left: 62%;
+}
+
+.tabela li{
+	list-style: none;
+}
+
+
+img{
+	transition: 1s;
+	position: relative;
+	top: 20px;
+}
+
+img:hover{
+	transform: rotate(360deg);
+}
+
+.program-ime{
+	/*position: relative;
+	left: 20px;*/
+	font-size: 20px;
+}
+
+.tabela{
+	text-align: center;
+}
+
+.tabela li{
+	float: left;
+	margin: 10px;
+}
+
+
+.tabela::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.nevidljiv{
+	height: 400px;
+	width: 400px;
+	background-color: white;
+	position: relative;
+	top: -400px;
+	left: 400px;
+	display: none;	
+	padding: 15px;
+	text-align: center;
+	border: 3px solid #7a7a7a;
+	border-radius: 20px;
+	z-index: 1;
+}
+
+.nevidljiv p{
+	line-height: 1.7em;
+}
